@@ -1,0 +1,37 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.125rem 0.5rem;
+  border-radius: var(--radius-full);
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.primary {
+  background-color: var(--primary);
+  color: white;
+}
+
+.success {
+  background-color: var(--success);
+  color: white;
+}
+
+.warning {
+  background-color: var(--warning);
+  color: white;
+}
+
+.danger {
+  background-color: var(--danger);
+  color: white;
+}
+
+.neutral {
+  background-color: var(--border-color);
+  color: var(--text-primary);
+}

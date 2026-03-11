@@ -1,0 +1,74 @@
+.footer {
+  margin-top: auto;
+  background-color: var(--surface-color);
+  border-top: 1px solid var(--border-color);
+  padding: var(--space-2xl) var(--space-lg) var(--space-lg);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2xl);
+}
+
+.topSection {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-xl);
+}
+
+@media (min-width: 768px) {
+  .topSection {
+    grid-template-columns: 2fr 1fr;
+  }
+}
+
+.brandTitle {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  margin-bottom: var(--space-sm);
+}
+
+.accent {
+  color: var(--primary);
+}
+
+.description {
+  color: var(--text-secondary);
+  line-height: 1.6;
+  max-width: 400px;
+}
+
+.linksTitle {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: var(--space-md);
+}
+
+.linksList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.linksList a {
+  color: var(--text-secondary);
+  transition: color 0.2s ease;
+}
+
+.linksList a:hover {
+  color: var(--primary);
+}
+
+.bottomSection {
+  padding-top: var(--space-lg);
+  border-top: 1px solid var(--border-color);
+  text-align: center;
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+}
