@@ -9,9 +9,12 @@ export const Footer: React.FC = () => {
       <div className={styles.container}>
         <div className={styles.topSection}>
           <div className={styles.brandInfo}>
-            <h2 className={styles.brandTitle}>Ventas<span className={styles.accent}>App</span></h2>
+            <div className={styles.brandHeader}>
+              <img src="/logo.png" alt="Sam Porter Logo" className={styles.footerLogo} />
+              <h2 className={styles.brandTitle}>Sam <span className={styles.accent}>Porter</span></h2>
+            </div>
             <p className={styles.description}>
-              Tu catálogo en línea de confianza. Envíos a todo el país.
+              "No todo lo que se oculta debe ser ignorado."
             </p>
           </div>
           
@@ -26,7 +29,7 @@ export const Footer: React.FC = () => {
         </div>
         
         <div className={styles.bottomSection}>
-          <p>&copy; {currentYear} VentasApp. Todos los derechos reservados.</p>
+          <p>&copy; {currentYear} Sam Porter. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>

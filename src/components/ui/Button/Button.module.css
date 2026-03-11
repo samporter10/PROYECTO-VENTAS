@@ -44,7 +44,7 @@
 /* Variants */
 .primary {
   background-color: var(--primary);
-  color: white;
+  color: var(--surface-color);
   box-shadow: var(--shadow-sm);
 }
 
@@ -71,7 +71,7 @@
 
 .outline:hover:not(:disabled) {
   background-color: var(--primary);
-  color: white;
+  color: var(--surface-color);
 }
 
 /* Loading State */

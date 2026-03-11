@@ -43,6 +43,14 @@
   line-height: 1.5;
 }
 
+.marketingPhrase {
+  font-size: 1.1em;
+  font-style: italic;
+  font-weight: 500;
+  color: var(--text-primary);
+  display: block;
+}
+
 .heroActions {
   margin-top: var(--space-md);
 }

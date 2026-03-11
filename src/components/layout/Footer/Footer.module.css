@@ -25,6 +25,20 @@
   }
 }
 
+.brandHeader {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-sm);
+}
+
+.footerLogo {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  border-radius: var(--radius-sm);
+}
+
 .brandTitle {
   font-size: 1.5rem;
   font-weight: 800;
@@ -39,6 +53,8 @@
 .description {
   color: var(--text-secondary);
   line-height: 1.6;
+  font-style: italic;
+  font-weight: 500;
   max-width: 400px;
 }
 

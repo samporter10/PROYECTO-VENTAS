@@ -4,7 +4,7 @@ import { Footer } from "@/components/layout/Footer/Footer";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Catálogo Online | Ventas",
+  title: "Catálogo Online | Sam Porter",
   description: "Encuentra la mejor selección de productos. Catálogo actualizado dinámicamente.",
 };
 

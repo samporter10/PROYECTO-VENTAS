@@ -18,8 +18,9 @@ export const Header: React.FC = () => {
     <header className={styles.header}>
       <div className={styles.container}>
         <div className={styles.logo}>
-          <Link href="/">
-            <span className={styles.brandName}>Ventas<span className={styles.accent}>App</span></span>
+          <Link href="/" className={styles.logoLink}>
+            <img src="/logo.png" alt="Sam Porter Logo" className={styles.logoImage} />
+            <span className={styles.brandName}>Sam <span className={styles.accent}>Porter</span></span>
           </Link>
         </div>
         

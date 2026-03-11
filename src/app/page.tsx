@@ -21,6 +21,8 @@ export default async function Home() {
             Descubre las últimas <span className={styles.accent}>tendencias</span>
           </h1>
           <p className={styles.heroSubtitle}>
+            <span className={styles.marketingPhrase}>"No todo lo que se oculta debe ser ignorado."</span>
+            <br/><br/>
             Catálogo exclusivo para nuestra comunidad de TikTok. Encuentra lo que buscas al mejor precio.
           </p>
           <div className={styles.heroActions}>

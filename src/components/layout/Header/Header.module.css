@@ -24,6 +24,20 @@
   text-decoration: none;
 }
 
+.logoLink {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.logoImage {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  border-radius: var(--radius-sm);
+}
+
 .brandName {
   font-size: 1.5rem;
   font-weight: 800;
